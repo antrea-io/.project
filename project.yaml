@@ -1,0 +1,71 @@
+# .project metadata for Antrea
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "antrea"
+name: "Antrea"
+description: "Kubernetes networking based on Open vSwitch"
+type: "project"
+project_lead: "antoninbas" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#antrea"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-04-28T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/871" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/antrea-io/antrea"
+
+website: "https://antrea.io/"
+
+artwork: "https://landscape.cncf.io/logos/antrea.svg"
+
+adopters:
+  path: "https://github.com/antrea-io/antrea/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "antrea-io/antrea"
+
+social:
+  twitter: "https://twitter.com/projectantrea"
+
+security:
+  policy:
+    path: "https://github.com/antrea-io/antrea/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/antrea-io/antrea/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/antrea-io/antrea/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/antrea-io/antrea/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/antrea-io/antrea/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/antrea-io/antrea/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Network"
+
+# CLOMonitor Score: 88/100
+# Documentation: 98 | License: 100 | Best Practices: 68 | Security: 68
