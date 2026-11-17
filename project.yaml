@@ -25,7 +25,7 @@ repositories:
 
 website: "https://antrea.io/"
 
-artwork: "https://landscape.cncf.io/logos/antrea.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/antrea"
 
 adopters:
   path: "https://github.com/antrea-io/antrea/blob/main/ADOPTERS.md"
